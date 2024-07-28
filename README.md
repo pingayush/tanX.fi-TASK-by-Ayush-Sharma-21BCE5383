@@ -19,6 +19,7 @@ This application allows users to create price alerts for cryptocurrencies. When 
 
 - Django
 - Django Rest Framework
+- Postman
 - Celery
 - Redis
 - PostgreSQL
