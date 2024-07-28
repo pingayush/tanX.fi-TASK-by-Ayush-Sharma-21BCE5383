@@ -29,3 +29,25 @@ This application allows users to create price alerts for cryptocurrencies. When 
 ## Prerequisites
 
 - Docker and Docker Compose installed on your machine.
+
+##Project Structure
+price_alert/
+├── alerts/
+├── price_alert/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+├── price_alerts/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── tasks.py
+│   ├── views.py
+│   ├── urls.py
+├── Dockerfile
+├── docker-compose.yml
+├── manage.py
+└── requirements.txt
+
